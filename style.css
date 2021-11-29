@@ -1,0 +1,500 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body
+{
+    background: url('SG/bg2.jpeg');
+    /* background: url('SG/bg.jpeg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main
+{
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto 0 auto;
+}
+
+img
+{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50px;
+}
+
+#index
+{
+    background: url('SG/bienvenue.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bienvenue
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.titre_bienvenue
+{
+    color: white;
+    background: rgba(0, 0, 0, 0.39);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.3em;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.233);
+    padding: 10px;
+}
+
+.cc
+{
+    color: rgb(255, 123, 0);
+    font-style: italic;
+    font-size: 3em;
+    font-family: agency fb;
+}
+
+.event
+{
+    color: rgb(255, 123, 0);
+    font-style: italic;
+    font-size: 1.5em;
+}
+.slogan
+{
+    font-size: 0.4em;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.continuer
+{
+    font-size: 0.6em;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    background: rgba(255, 235, 205, 0.212);
+    padding: 10px;
+    color: white;
+}
+
+.continuer:hover
+{
+    cursor: pointer;
+    background: rgb(255, 123, 0);
+}
+
+a
+{
+    color: white;
+
+}
+
+a:hover
+{
+    color: tomato;
+    cursor: pointer;
+}
+
+a:visited
+{
+    color: turquoise;
+}
+
+header
+{
+    background: rgba(0, 0, 0, 0.356);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.logo
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.cece
+{
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.corps
+{
+    margin-top: 100px auto;
+}
+
+.commentaire1
+{
+    color: white;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2em;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.445);
+    border: 2px solid white;
+    padding: 20px;
+    display: inline-block;
+    clear: both;
+}
+
+.commentaire2
+{
+    color: white;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2em;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.445);
+    border: 2px solid white;
+    padding: 20px;
+    display: inline-block;
+    clear: both;
+    margin-top: 100px;
+}
+
+.commentaire3
+{
+    color: white;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2em;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.445);
+    /* border: 2px solid white; */
+    padding: 20px;
+    display: inline-block;
+    margin: 100px auto;
+}
+.anonyme
+{
+    color: red;
+    font-weight: bolder;
+    text-shadow: 2px 2px 30px rgb(0, 110, 255);
+}
+
+.ici
+{
+    list-style: none;
+    color: red;
+}
+
+a .ici:visited
+{
+    color: rgb(0, 255, 42);
+}
+
+a:hover
+{
+    cursor: pointer;
+}
+
+
+.pied
+{
+    padding: 2em;
+    height: auto;
+    /* border: 3px solid white; */
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.568);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li
+{
+    color: white;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.6em;
+    list-style: none;
+    margin: 1em;
+}
+
+.description
+{
+    color: white;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2em;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.445);
+    /* border: 2px solid white; */
+    padding: 20px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 200px;  
+}
+
+h2
+{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+.list
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto;
+}
+
+.list a
+{
+    text-decoration: none;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+}
+
+.lis
+{
+    cursor: pointer;
+    
+}
+
+.lis:hover
+{
+    background: rgba(58, 23, 23, 0.356);
+}
+
+.lis a:hover
+{
+    color: rgb(255, 248, 188);
+}
+
+.retour
+{
+    color: white;
+    font-size: 1.5em;
+}
+
+#retour
+{
+    text-align: center;
+}
+
+#partenaire
+{
+    background: url('SG/rond-triangle-carré-serie-netflix.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.h-boss
+{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.partenaire1
+{
+    display: flex;
+    align-items: center;
+    margin: 5em auto;
+}
+
+.huguo
+{
+    color: white;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+
+.bsl
+{
+    color: red;
+    font-style: italic;
+}
+
+.qui
+{
+    font-size: 1.2em;
+    font-variant: small-caps;
+    color: rgb(0, 204, 255);
+}
+
+.icons
+{
+    width: 20px;
+    height: auto;
+}
+
+@media screen and (max-width: 900px)
+{
+    body
+    {
+        background: url('SG/vadim-bogulov-jsOCj9kN-4Y-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .main
+    {
+        width: 80%;
+        margin: 10% auto;
+    }
+
+    img
+    {
+        width: 33%;
+        height: auto;
+        float: left;
+        margin-right: 7%;
+        border-radius: 35%;
+    }
+
+    .logo
+    {
+        color: white;
+        font-weight: bolder;
+        font-size: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .cece
+    {
+        color: white;
+        font-style: italic;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.7em;
+    }
+
+    .commentaire1
+    {
+        color: white;
+        font-size: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 2em;
+        font-style: italic;
+        background: rgba(0, 0, 0, 0.445);
+        border: 2px solid white;
+        padding: 20px;
+        display: inline-block;
+        clear: both;
+    }
+
+    .commentaire2
+    {
+        color: white;
+        font-size: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 2em;
+        font-style: italic;
+        background: rgba(0, 0, 0, 0.445);
+        border: 2px solid white;
+        padding: 20px;
+        display: inline-block;
+        clear: both;
+        margin-top: 100px;
+    }
+
+    .commentaire3
+    {
+        color: white;
+        font-size: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 2em;
+        font-style: italic;
+        background: rgba(0, 0, 0, 0.445);
+        /* border: 2px solid white; */
+        padding: 20px;
+        display: inline-block;
+        margin: 100px auto;
+    }
+
+    .description
+    {
+        color: white;
+        text-align: justify;
+        font-size: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 2em;
+        font-style: italic;
+        background: rgba(0, 0, 0, 0.445);
+        /* border: 2px solid white; */
+        padding: 20px;
+        display: inline-block;
+        margin-top: 100px;
+        margin-bottom: 200px;  
+    }
+
+    #retour
+    {
+        text-align: center;
+        font-size: 0.6em;
+    }
+
+    .list
+    {
+        /* display: flex; */
+        /* justify-content: space-between; */
+        margin: 2em auto;
+        display: block;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.212);
+        padding: 10px;
+    }
+
+    .list a
+    {
+        text-decoration: none;
+        color: white;
+        font-family: serif;
+        font-style: italic;
+        font-size: 1em;
+
+    }
+
+    .h-boss
+    {
+        width: 100px;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 1.5em;
+    }
+
+    
+    .partenaire1
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 8em auto;
+    }
+
+
+}
