@@ -496,6 +496,11 @@ h2
         flex-direction: column;
         margin: 8em auto;
     }
+    
+    #partenaire
+    {
+        background: rgb(65, 0, 126);
+    }
 
 
 }
