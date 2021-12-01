@@ -358,6 +358,7 @@ h2
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        backgroung-position: center;
     }
 
     .main
