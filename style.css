@@ -360,6 +360,8 @@ h2
         background-size: cover;
         background-attachment: fixed;
         backgroung-position: center;
+        height: 100%;
+        width: 100%;
     }
 
     .main
