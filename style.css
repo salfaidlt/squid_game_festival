@@ -358,7 +358,7 @@ h2
         /*background: url('SG/vadim-bogulov-jsOCj9kN-4Y-unsplash.jpg');*/
         background: url(SG/bg.jpeg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-attachment: fixed;
         backgroung-position: center;
         height: 100%;
