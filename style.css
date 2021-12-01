@@ -355,7 +355,8 @@ h2
 {
     body
     {
-        background: url('SG/vadim-bogulov-jsOCj9kN-4Y-unsplash.jpg');
+        /*background: url('SG/vadim-bogulov-jsOCj9kN-4Y-unsplash.jpg');*/
+        background: url(SG/bg.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         /*background-attachment: fixed;*/
